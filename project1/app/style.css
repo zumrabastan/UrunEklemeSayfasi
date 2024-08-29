@@ -1,0 +1,211 @@
+.logo{
+    font-size: 55px ;
+    padding: 25px;
+    background-color: #afaee2;
+}
+body{
+  /* background :linear-gradient(180deg, rgb(111, 182, 130), rgb(123, 198, 164) ,rgb(36, 164, 98)); */
+  background-color: #f3f3f3;
+
+}
+
+.color{
+    width: 219vh;
+    height: 60vh;
+    /* background :linear-gradient(180deg, rgb(56, 160, 84), rgb(255, 255, 255) ,rgb(209, 101, 124)); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: calc(100vh - 25px);
+    margin-top: 0px; 
+    text-align: center;  
+    color: green;
+}
+.add-product-container {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+  }
+  
+  .add-product-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .add-product-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  
+  .add-product-form button {
+    padding: 10px 20px;
+    background-color: #a78bfa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-product-form button:hover {
+    background-color:#8b5cf6 ;
+  }
+  .filter-container {
+    width: 20%; 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .filter-section {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+  }
+  .filter-section label {
+    margin-bottom: 5px; 
+  }
+  
+  .filter-section button {
+    margin-bottom: 15px; 
+    width: 50%; 
+    float: left;
+
+  }
+  .product-card {
+    width: 14rem;
+    height: 20rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .search{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: black;
+    
+  }
+  .search input {
+    width: 25%;
+    height: 2%;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search input:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 3px #a78bfa;
+  }
+  @media screen and (max-width: 768px) {
+    .logo {
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .color {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .add-product-container {
+        margin: 2rem auto;
+        padding: 15px;
+    }
+
+    .filter-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .product-card {
+        width: 12rem;
+        height: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 30px;
+      padding: 10px;
+  }
+
+  .color {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+  }
+
+  .add-product-container {
+      margin: 1rem auto;
+      padding: 10px;
+  }
+
+  .filter-section {
+      padding: 10px;
+  }
+
+  .filter-section button {
+      width: 100%;
+  }
+
+  .product-card {
+      width: 100%;
+      height: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .logo {
+      font-size: 45px; /* Logo boyutunu küçülttük */
+      padding: 20px; /* Padding değerini azalttık */
+  }
+
+  .color {
+      width: 100%;
+      height: auto;
+      padding: 20px; /* İç boşlukları biraz artırdık */
+  }
+
+  .add-product-container {
+      margin: 3rem auto; /* Üst ve alt boşlukları biraz küçülttük */
+      padding: 15px; /* İç boşlukları azalttık */
+  }
+
+  .filter-container {
+      width: 100%; /* Filtre bölümünün genişliğini %100 yaptık */
+      padding: 10px; /* İç boşlukları koruduk */
+  }
+
+  .filter-section button {
+      width: 100%; /* Filtre butonunu tam genişlik yapalım */
+  }
+
+  .product-card {
+      width: 12rem; /* Ürün kartının genişliğini küçülttük */
+      height: auto; /* Yüksekliği otomatik yaptık */
+  }
+}
+  
+    
+
+  
+    
+
+
+  
+  
+
